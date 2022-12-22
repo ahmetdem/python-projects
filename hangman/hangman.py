@@ -164,7 +164,7 @@ while True:
     guess = gameplay(turn, board)
 
     #winning
-    if "_" not in board or guess == words[turn]: #add or
+    if "_" not in board or guess == words[turn]:
         turn += 1
         point += 1
         right = 0
