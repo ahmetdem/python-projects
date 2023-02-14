@@ -27,3 +27,9 @@ print(random)
 # for key, val in char["data"].items():
 #     print(f"{key} : {val}")
 #     print()
+
+#FOR SEARCH PURPOSES
+# randomAnime = jikan.search(search_type='anime', query='shingeki no kyojin', page=None, parameters={'min_score': 9})
+# for val in randomAnime["data"]:
+#     print(val)
+#     print("\n"*10)
